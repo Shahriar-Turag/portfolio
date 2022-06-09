@@ -1,0 +1,37 @@
+@tailwind components;
+
+@layer components {
+    .projects__container {
+        @apply space-y-6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 150vh;
+        font-family: "Iceland";
+    }
+    .projects {
+        @apply text-7xl;
+    }
+    .project__title {
+        @apply text-4xl;
+    }
+    .details h4 {
+        @apply text-2xl;
+    }
+    .project__img img {
+        @apply w-[500px] rounded-2xl;
+    }
+    .btn {
+        @apply space-x-4 py-4;
+    }
+    .btn-g {
+        @apply border-2 border-black px-6 py-1 rounded hover:bg-black hover:text-white shadow-lg;
+    }
+    .btn-l {
+        @apply border-2 border-black px-6 py-1 rounded hover:bg-black hover:text-white shadow-lg;
+    }
+    .num {
+        @apply font-bold;
+    }
+}

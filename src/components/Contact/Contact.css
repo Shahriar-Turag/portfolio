@@ -1,0 +1,22 @@
+@tailwind components;
+
+@layer components {
+    .contact__container {
+        @apply space-y-6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Iceland";
+    }
+    .contact__info {
+        @apply flex flex-col space-y-5;
+    }
+    .logo {
+        @apply space-x-20;
+    }
+    .logo i {
+        @apply text-3xl;
+    }
+}

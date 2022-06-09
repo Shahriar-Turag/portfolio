@@ -1,0 +1,14 @@
+@tailwind components;
+
+@layer components {
+    .skills__container {
+        @apply my-20;
+        font-family: "Iceland";
+    }
+    .skills__img {
+        @apply flex justify-between items-center px-56;
+    }
+    .skills__img img {
+        /* @apply w-12 h-12; */
+    }
+}

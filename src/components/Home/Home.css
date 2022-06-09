@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+    .home__container {
+        @apply space-y-6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Iceland";
+    }
+    .name {
+        @apply text-7xl;
+    }
+    .designation {
+        @apply text-3xl;
+    }
+}
