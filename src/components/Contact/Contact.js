@@ -4,9 +4,9 @@ import "./Contact.css";
 const Contact = () => {
     return (
         <div className="contact__container">
-            <h1 className="text-7xl">Contact Me</h1>
+            <h1 className="text-4xl lg:text-7xl">Contact Me</h1>
             <div className="contact">
-                <h4 className="text-3xl mb-5">Contact Info</h4>
+                <h4 className="text-xl lg:text-3xl mb-5">Contact Info</h4>
                 <div className="contact__info">
                     <h1 className="fas fa-envelope">
                         &nbsp; shahriarturag,st@gmail.com

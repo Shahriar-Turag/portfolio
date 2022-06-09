@@ -3,12 +3,13 @@
 @layer components {
     .skills__container {
         @apply my-20;
+        margin-top: 250px;
         font-family: "Iceland";
     }
     .skills__img {
-        @apply flex justify-between items-center px-56;
+        @apply flex justify-between flex-col lg:flex-row items-center px-56;
     }
     .skills__img img {
-        /* @apply w-12 h-12; */
+        @apply w-full lg:w-auto;
     }
 }

@@ -7,11 +7,11 @@ import "./Projects.css";
 
 const Projects = () => {
     return (
-        <div className="projects__container">
+        <div className="projects__container m-10 lg:m-0">
             <div className="projects">Projects</div>
             <div className="individual__project">
                 <p className="num">01</p>
-                <div className="px-20 flex justify-between items-center space-x-10">
+                <div className="px-20 flex justify-between items-center flex-col lg:flex-row space-x-10">
                     <div className="details">
                         <h1 className="project__title">Auto Zone</h1>
                         <h4>Full stack project</h4>
@@ -20,7 +20,7 @@ const Projects = () => {
                             different kinds of auto parts. <br /> Also have
                             payment gateway.
                         </p>
-                        <div className="btn">
+                        <div className="btn ">
                             <button className="btn-g">
                                 <a
                                     target="_blank"
@@ -48,7 +48,7 @@ const Projects = () => {
             </div>
             <div className="individual__project">
                 <p className="num">02</p>
-                <div className="px-20 flex justify-between items-center space-x-9">
+                <div className="px-20 flex justify-between items-center flex-col lg:flex-row space-x-9">
                     <div className="details">
                         <h1 className="project__title">CAR BAR</h1>
                         <h4>Full stack project</h4>
@@ -85,7 +85,7 @@ const Projects = () => {
             </div>
             <div className="individual__project">
                 <p className="num">03</p>
-                <div className="px-20 flex justify-between items-center space-x-10">
+                <div className="px-20 flex justify-between items-center flex-col lg:flex-row space-x-10">
                     <div className="details">
                         <h1 className="project__title">Travelcations</h1>
                         <h4>React project</h4>

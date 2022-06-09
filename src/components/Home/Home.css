@@ -11,9 +11,9 @@
         font-family: "Iceland";
     }
     .name {
-        @apply text-7xl;
+        @apply text-4xl lg:text-7xl;
     }
     .designation {
-        @apply text-3xl;
+        @apply text-2xl lg:text-3xl;
     }
 }

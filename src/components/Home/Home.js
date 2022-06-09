@@ -11,7 +11,7 @@ const Home = () => {
             <div className="designation">
                 <p>Jr. Frontend Developer</p>
             </div>
-            <div className="space-x-5">
+            <div className="lg:space-x-5 space-x-0 flex justify-center items-center flex-col lg:flex-row space-y-5 lg:space-y-0">
                 <button className="btn-g">
                     <a href={resume} Value="download">
                         Download Resume
