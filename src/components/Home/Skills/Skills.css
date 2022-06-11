@@ -1,15 +1,14 @@
 @tailwind components;
+@tailwind utilities;
 
 @layer components {
     .skills__container {
         @apply my-20;
         margin-top: 250px;
         font-family: "Iceland";
+        text-shadow: 0px 0px 20px #00ffae;
     }
     .skills__img {
-        @apply flex justify-between flex-col lg:flex-row items-center px-56;
-    }
-    .skills__img img {
-        @apply w-full lg:w-auto;
+        @apply flex justify-between flex-col lg:flex-row items-center px-10 lg:px-56 space-y-6 lg:space-y-0;
     }
 }

@@ -36,17 +36,39 @@
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div class="container"></div>
         <div id="root"></div>
-        <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <script src="./anime.min.js"></script>
+        <script>
+            const container = document.querySelector(".container");
+            for (var i = 0; i <= 100; i++) {
+                const blocks = document.createElement("div");
+                blocks.classList.add("block");
+                container.appendChild(blocks);
+            }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+            function animateBlocks() {
+                anime({
+                    targets: ".block",
+                    translateX: function () {
+                        return anime.random(-700, 700);
+                    },
+                    translateY: function () {
+                        return anime.random(-500, 500);
+                    },
+                    scale: function () {
+                        return anime.random(1, 5);
+                    },
+
+                    easing: "linear",
+                    duration: 3000,
+                    delay: anime.stagger(10),
+                });
+            }
+            animateBlocks();
+        </script>
+
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();

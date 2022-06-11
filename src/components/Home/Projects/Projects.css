@@ -12,9 +12,11 @@
     }
     .projects {
         @apply text-4xl lg:text-7xl;
+        text-shadow: 0px 0px 20px #00ffae;
     }
     .project__title {
         @apply text-2xl lg:text-4xl;
+        text-shadow: 0px 0px 20px #00ffae;
     }
     .details h4 {
         @apply text-lg lg:text-2xl;
@@ -25,13 +27,24 @@
     .btn {
         @apply space-x-0 lg:space-x-4  py-4;
     }
-    .btn-g {
-        @apply border-2 border-black px-6 py-1 rounded hover:bg-black hover:text-white shadow-lg mb-4;
-    }
-    .btn-l {
-        @apply border-2 border-black px-6 py-1 rounded hover:bg-black hover:text-white shadow-lg;
-    }
+
     .num {
         @apply font-bold;
+        text-shadow: 0px 0px 20px #00ffae;
+    }
+    .details__btn {
+        @apply rounded border;
+        position: relative;
+        display: inline-block;
+        padding: 8px 15px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+    .details__btn:hover {
+        color: black;
+        background: white;
+        box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+        transition-delay: 0.2s;
     }
 }

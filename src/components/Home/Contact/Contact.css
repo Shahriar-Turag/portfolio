@@ -9,6 +9,7 @@
         justify-content: center;
         height: 100vh;
         font-family: "Iceland";
+        text-shadow: 0px 0px 20px #00ffae;
     }
     .contact__info {
         @apply flex flex-col space-y-5;
